@@ -13,3 +13,13 @@
     width: 400px;
     background-color: blue;
 }
+
+.ex-3-square{
+    transition: 5s;
+    }
+
+.ex-3-square:hover{
+    background-color: blue;
+    border: solid 10px red;
+    border-radius: 50%;
+}
