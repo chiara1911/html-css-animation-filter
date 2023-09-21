@@ -6,3 +6,10 @@
   border: solid 5px blue;
 }
 
+.ex-2-square{
+    transition: 2s;
+}
+.ex-2-square:active{
+    width: 400px;
+    background-color: blue;
+}
