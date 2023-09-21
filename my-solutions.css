@@ -43,3 +43,17 @@
     width: 40px;
     height: 40px;
 }
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img{
+    transition: 4s;
+}
+
+.ex-7-img:hover{
+    filter: sepia(50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
