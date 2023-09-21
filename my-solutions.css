@@ -86,3 +86,19 @@ transform: scale(150%);
     transform: rotate(360deg);
    }
 }
+
+.ex-11-icon:hover{
+    animation: second-circle 3s linear;
+}
+@keyframes second-circle {
+    0%{
+        transform: rotate(0);
+         }
+    75%{
+        transform: rotate(240deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+    
+}
