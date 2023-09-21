@@ -64,7 +64,25 @@
 
 .ex-8-img:hover{
     border-radius: 20%;
-    rotate: 180deg;
+    transform: rotate(180deg);
     filter: invert(100%);
+}
 
+.ex-9-img{
+    transition: 4s;
+}
+
+.ex-9-img:hover{
+filter: contrast(80%) grayscale(20%);
+border-radius: 30%;
+transform: scale(150%);
+}
+
+.ex-10-icon{
+    animation: circle 3s linear infinite;
+}
+@keyframes circle{
+   0%{
+    transform: rotate(360deg);
+   }
 }
